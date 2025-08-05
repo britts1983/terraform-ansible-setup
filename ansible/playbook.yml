@@ -1,0 +1,7 @@
+- name: Localhost demo
+  hosts: local
+  tasks:
+    - name: Say Hello from Ansible
+      debug:
+        msg: "Hello! Ansible is working."
+
